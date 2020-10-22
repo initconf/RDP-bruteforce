@@ -28,9 +28,17 @@ This should generate following Kinds of notices:
 
 Example notice: 
 ***************************
+::
 
-Example Summary Notice: 
-***************************
+
+1) 1534874707.394154	-	-	-	-	-	-	-	-	-	RDP::HotAccount	I: 11.199.212.183 bruteforced 142.202.142.235 on  RDP (3389/tcp) using HotAccount: "a" 	-	11.199.212.183	-	-	-	-Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+
+2) 1523947465.302691	-	-	-	-	-	-	-	-	-	RDP::BruteforceScan	193.174.201.229 bruteforced 1 hosts using 3 account(s)	-	193.174.201.229	-	-	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+
+3) 1534930291.894509	-	-	-	-	-	-	-	-	-	RDP::HotAccount	I: 24.196.178.67 bruteforced 133.130.155.113 on  RDP (3389/tcp) using HotAccount: "hello" 	-	24.196.178.67	-	-	--Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+
+4) 1534791131.913746	-	-	-	-	-	-	-	-	-	RDP::BruteforceScan	51.235.163.75 bruteforced 3 hosts using 3 account(s)	-	51.235.163.75	-	-	-	-	Notice::ACTION_LOG,Notice::ACTION_DROP	3600.000000	-	-	-	-	-	F
+
 
 
 
