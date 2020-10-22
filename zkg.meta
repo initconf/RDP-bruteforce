@@ -1,0 +1,6 @@
+[package]
+description=rdp-bruteforce 
+script_dir = scripts
+version = 0.1 
+tags = rdp, bruteforce, scan 
+test_command = ( cd tests && btest -d )
